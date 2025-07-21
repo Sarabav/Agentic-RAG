@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ChromaDB database and artifacts
+chroma_db/
+chroma_db/*.sqlite3
+chroma_db/*/
+
+# Test database folders
+/test_chroma_db/
+
+# Environment files
+.env
+
+# VSCode and editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+venv/
+.env/
+agent/
